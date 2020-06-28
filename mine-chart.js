@@ -38,7 +38,7 @@
 	}
 
 	MineChart.prototype.load = function(name){
-		return d3.csv("/data/statistics/" + name + ".csv");
+		return d3.csv("data/statistics/" + name + ".csv");
 	}
 
 	MineChart.prototype.nextColor = function(){
